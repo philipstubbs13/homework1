@@ -5,7 +5,22 @@ Data analysis and visualization of a database of Kickstarter projects to help un
 ## Background
 
 Over $2 billion has been raised using the massively successful crowdfunding service, Kickstarter, but not every project has found success. Of the more than 300,000 projects launched on Kickstarter, only a third have made it through the funding process with a positive outcome.
-Getting funded on Kickstarter requires meeting or exceeding the project's initial goal, so many organizations spend months looking through past projects in an attempt to discover some trick for finding success. In this data analysis, I have organized and analyzed a database of 4,000 past projects in order to uncover some hidden trends.
+Getting funded on Kickstarter requires meeting or exceeding the project's initial goal, so many organizations spend months looking through past projects in an attempt to discover some trick for finding success. In this data analysis, I have organized and analyzed a database of thousands of past projects in order to uncover some of the market trends.
+
+## Final Workbook
+
+You can find the final workbook, which includes the Kickstarter project data as well as the pivot tables and charts created for this analysis, here:
+
+[Final Workbook](./kickstart_my_chart.xlsx)
+
+## Technologies Used
+
+* Microsoft Excel
+  * Pivot tables
+  * Pivot charts
+  * Conditional formatting
+  * Formulas
+  * Filters
 
 ## Figure 1: Campaign Status by Category
 
@@ -23,7 +38,11 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 
 ![Image of graph that shows outcomes based on goal](./images/outcomes_based_on_goal.png)
 
-## Given the provided data, what are three conclusions we can draw about Kickstarter campaigns
+### Final Report / Analysis
+
+The following sections include my final report/analysis for this project. A Microsoft Word version of this report is available [here](./report.docx).
+
+### Given the provided data, what are three conclusions we can draw about Kickstarter campaigns
 
 * By looking at the state column (column F) in the “Kickstarter projects data” tab in the accompanied Microsoft Excel spreadsheet, there are generally more Kickstarter campaigns that have been successful (color coded in the spreadsheet as green) than campaigns that have failed (color coded in the spreadsheet as red).
 
@@ -37,7 +56,7 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 
 * The line chart (see Figure 4) in the “Outcomes Based on Goal” tab in the accompanied Microsoft Excel spreadsheet shows the relationship between a goal’s amount and the campaign’s chance at success, failure, or cancellation. Looking at this chart, campaigns with smaller goals are generally more successful than campaigns with larger goals. As goal amount increases, the chance at success generally decreases and the chance at failure or cancellation generally increases.
 
-## What are some limitations of this dataset
+### What are some limitations of this dataset
 
 * One of the biggest limitations of this dataset is geography. Looking at the country column (column G) in the accompanied Microsoft Excel spreadsheet, data was only collected at an international level (US, GB, FR, etc.). At least for the United States, I think it would be beneficial to get data at the regional level. I think this dataset could be even better if there was data at the state level as well, which would allow us to uncover any regional differences or trends for Kickstarter campaigns. For example, how does the number of successful campaigns compare for Minnesota to Oregon? Or, how well do certain categories or sub-categories perform in the Midwest vs in the Southeast part of the United States. Also, I think it would be beneficial to collect more data for countries outside of the United States so that we could better compare campaigns in the United States to campaigns outside of the United States.
 
@@ -45,7 +64,7 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 
 * Another potential limitation of this dataset is that some donation efforts might offer rewards/incentives to people to donate to certain campaigns. We have no details or data on whether the backers received rewards or other incentives to donate. If backers did receive rewards to donate, those rewards might account for higher average donation amounts for some campaigns and lower average donation amounts for other campaigns. As a result, rewards given out to backers could potentially impact a campaign’s chance at success, failure, or cancellation.
 
-## What are some other possible tables and/or graphs that we could create
+### What are some other possible tables and/or graphs that we could create
 
 * With the current dataset, I think it would be interesting to look at a table and graph comparing the campaign success rate for the United States to other countries in the dataset like Great Britain or France. Although I mentioned that one of the limitations of this dataset is that it primarily includes information about campaigns in the United States, there is still some information about other countries that we can use to create this additional graph. By comparing the United States to other countries, we could potentially answer questions, such as, which country has the highest success rate? Are campaigns generally more successful in the United States or overseas in Europe? Are there certain categories/sub-categories that are more successful in Europe that are not so successful in the United States?
 
