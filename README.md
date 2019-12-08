@@ -27,7 +27,7 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 
 * By looking at the state column (column F) in the “Kickstarter projects data” tab in the accompanied Microsoft Excel spreadsheet, there are generally more Kickstarter campaigns that have been successful (color coded in the spreadsheet as green) than campaigns that have failed (color coded in the spreadsheet as red).
 
-![Image that shows color coding of campaign status](./images/campaign_status_color_code.png)
+![Image that shows color coding of campaign status](./images/campaign_success_color_code.png)
 
 * The pivot table and chart (see Figure 1) in the “Per category” tab in the accompanied Microsoft Excel spreadsheet shows campaign status by category. When looking at campaign status and counting how many campaigns were successful, failed, canceled, or are currently live per category, theater, music, and film and video (in that order) have the most successful campaigns. While theater does have the most successful campaigns, it is important to keep in mind that it has the most failed campaigns as well. Another interesting conclusion when looking at status by category is that technology has the most canceled campaigns. Music, theater, and food are the only categories that have campaigns that are currently live.
 
