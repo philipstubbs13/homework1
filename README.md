@@ -9,4 +9,4 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 
 ## Figure 1: Campaign Status by Category
 
-![Image of graph that shows campaign status by category]('./images/campaign_status_by_category.png')
+![Image of graph that shows campaign status by category](./images/campaign_status_by_category.png)
